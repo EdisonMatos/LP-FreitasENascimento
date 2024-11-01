@@ -224,7 +224,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. ARTHUR NASCIMENTO",
+      miniTag: "QUEM É DR. ARTUR NASCIMENTO",
       title: "Minha trajetória",
       subtitle:
         "Uma jornada dedicada à justiça e à transformação de vidas através da advocacia.",
