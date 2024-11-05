@@ -51,7 +51,7 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Arthur Nascimento",
+  name: "Dr. Artur Nascimento",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
