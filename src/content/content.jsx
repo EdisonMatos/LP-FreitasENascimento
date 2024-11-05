@@ -109,7 +109,12 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO ADMINISTRATIVO E CÍVEL EM MANAUS - AM",
+      miniTag: (
+        <p>
+          ADVOGADO ADMINISTRATIVO E CÍVEL EM <br className="phone3:hidden" />
+          MANAUS - AM
+        </p>
+      ),
       title: (
         <h1 className="mb-[16px]">
           Especializados em <span className="text-primary">resolver</span> seus
@@ -204,7 +209,7 @@ const content = {
         img: featuresImg4,
         title: "Imobiliário",
         subtitle:
-          "Consultoria em compra, venda, locação e regularização de imóveis.",
+          "Consultoria em compra, venda, locação e regularização de imóveis urbanos e rurais.",
         description: (
           <div>
             A Definir <br />

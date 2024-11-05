@@ -19,8 +19,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-
-export default function About({modal}) {
+export default function About({ modal }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -56,18 +55,7 @@ export default function About({modal}) {
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
             className="relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
-          >
-            <img
-              alt="Imagem de efeito pontilhado"
-              src={imgPoints}
-              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-            ></img>
-          </div>
-          {/* <img
-            src={content.texts.about.imagem.img}
-            alt="Imagem de uma praia de Arraial"
-            className=""
-          /> */}
+          ></div>
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">
